@@ -1,2 +1,2 @@
 # Smart-Car
-it's a prototype of a driverless car that processes imagery and ultrasonic sensor data to avoid it from colliding into leading vehicle/object and getting off the lane line.
+It's a prototype of a driverless car that processes imagery and ultrasonic sensor data to avoid it from colliding into leading vehicle/object and getting off the lane line. This system uses RaspberryPi 4B as the mainbboard to process all the input data and outputs the steering angle and speed (PWM) values that the car should perform. Then, those values are sent to an arduino uno using serial communication to be executed on the car using ON/OFF control for the speed and PD (Proportional-Differential) control to control the steering angle. 
