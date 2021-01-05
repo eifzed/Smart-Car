@@ -94,7 +94,7 @@ def save_data(inSpeed, dist_cam_data, dist_ult_data, dist_fusion_data, speed_dif
         sheet1.write(i+1, 5, steer_data[i])
         sheet1.write(i+1, 6, outSpeed_data[i])
         sheet1.write(i+1, 7, error_log_data[i])
-    wb.save('./data_percobaan/' + str(inSpeed) +'--' + str(datetime.now()) + '.xls')
+    wb.save('./data/' + str(inSpeed) +'--' + str(datetime.now()) + '.xls')
 
 
 dist_cam_data = []
